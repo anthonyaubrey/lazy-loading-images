@@ -4,7 +4,7 @@ window.addEventListener('load', function (e) {
   [].forEach.call(imgs, function (img) {
     var imgTag =img.querySelector('img');
 
-    imgTag.src = imgtag.dataset.src;
+    imgTag.src = imgTag.dataset.src;
     imgTag.removeAttribute('hidden');
     img.removeAttribute('hidden');
   });
