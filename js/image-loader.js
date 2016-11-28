@@ -7,6 +7,6 @@ window.addEventListener('load', function (e) {
     imgTag.src = imgtag.dataset.src;
     imgTag.removeAttribute('hidden');
     img.removeAttribute('hidden');
-  })s;
+  });
 
 });
